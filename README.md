@@ -48,8 +48,7 @@ Before running the tests, make sure you have the necessary packages installed. Y
    - Add your API key to `secrets.toml` in the following format:
 
      ```toml
-     [api]
-     key = "YOUR_API_KEY_HERE"
+     OPENAI_API_KEY = "YOUR_API_KEY_HERE"
      ```
 
    Make sure to replace `"YOUR_API_KEY_HERE"` with your actual API key.
